@@ -1,8 +1,17 @@
-# React + Vite
+# Anime Mania
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Es una plataforma que te brinda la oportunidad para descubrir
+rápidamente la información sobre el Anime que prefieras  con
+solo escribir el nombre, podrás acceder a detalles como su
+calificación, imagen, nombre y más 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<img width="600" alt="Número de links encontrados " src="https://github.com/DianaJ-Dev/FrontAnimeMania/blob/main/src/img/AnimeMania.png">
+
+La plataforma contiene una barra de búsqueda donde podrás
+colocar cualquier nombre y devolverá la información que 
+encuentra relacionada con esa palabra, también se puede 
+usar de manera cómoda en cualquier tipo de celular o table 
+debido a que es responsiva.
+
+<img width="300" alt="Número de links encontrados " src="https://github.com/DianaJ-Dev/FrontAnimeMania/blob/main/src/img/Responsive.png">
