@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { useState } from "react"
 
 export const Searchbar = ({onNewAnime}) => {
@@ -30,3 +31,7 @@ export const Searchbar = ({onNewAnime}) => {
     </form>
   )
 }
+
+Searchbar.propTypes = {
+  onNewAnime: PropTypes.string.isRequired,
+};

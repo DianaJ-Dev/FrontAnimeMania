@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+import Logo from '../img/Logo.png'
 import {Searchbar} from "./Searchbar"
 
 export const Navbar = ({funcAux}) => {
@@ -8,10 +10,10 @@ export const Navbar = ({funcAux}) => {
 
     return (
         <>
-            <nav class="navbar bg-body-tertiary">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
-                        <img src="/src/assets/img/logo.png" alt="Logo" width="67" height="54" class="d-inline-block align-text-">
+            <nav className="navbar bg-body-tertiary">
+                <div className="container-fluid">
+                    <a className="navbar-brand" href="#">
+                        <img src={Logo} alt="Logo" width="90" height="75" className="d-inline-block align-text-">
                         </img>
                         <span className="title" >
                             Anime Mania
@@ -25,3 +27,7 @@ export const Navbar = ({funcAux}) => {
         </>
     )
 }
+
+Navbar.propTypes = {
+    funcAux: PropTypes.string.isRequired,
+};
